@@ -1,0 +1,13 @@
+<!DOCTYPE note
+[
+<!ELEMENT orarend (ora)>
+<!ELEMENT ora (targy,szak,idopont,helyszin,oktato)>
+<!ELEMENT idopont (nap,tol,ig)>
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT tol (#PCDATA)>
+<!ELEMENT ig (#PCDATA)>
+<!ELEMENT targy (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+<!ELEMENT helyszin (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+]>

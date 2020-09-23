@@ -1,0 +1,15 @@
+<!DOCTYPE note
+[
+<!ELEMENT iskola (tanar,tantargy)  >
+<!ATTLIST tanar kod ID #REQUIRED>
+<!ELEMENT tanar (nev,szak)>
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+
+<!ELEMENT tantargy (tkod,oktato) >
+<!ATTLIST tnev  tantargy kod #REQUIRED >
+<!ATTLIST oktato >
+<!ELEMENT tkod (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+
+]>
